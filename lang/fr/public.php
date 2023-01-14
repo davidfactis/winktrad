@@ -1,6 +1,6 @@
 <?php
 return [
-    'ac' => 'ACCEUILS',
+    'ac' => 'ACCEUIL',
     'apr' => 'A PROPOS',
     'ser' => 'SERVICES',
     'cont' => 'Contact',

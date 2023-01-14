@@ -26,7 +26,7 @@
                 <div class="col-auto">
                     <p> <i class='bx bxs-envelope'></i> <a href="mailto:contact@eljoinvest.lu">contact@eljoinvest.lu</a>
                     </p>
-                    <p> <i class='bx bxs-phone-call'></i> <a href="tel:+447988706690">+44 79 88 70 66 90</a></p>
+                    <p> <i class='bx bxs-phone-call'></i> <a href="tel:+33644659387">+33 6 44 65 93 87</a></p>
                 </div>
                 <div class="col-auto social-icons">
                     <a href="#"><i class='bx bxl-facebook'></i></a>
@@ -72,7 +72,7 @@
             </div>
         </div>
     </nav>
-    
+
 
     {{ $slot }}
 
