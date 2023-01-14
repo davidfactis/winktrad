@@ -14,6 +14,7 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet" />
 </head>
@@ -24,7 +25,7 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-auto">
-                    <p> <i class='bx bxs-envelope'></i> <a href="mailto:contact@eljoinvest.lu">contact@eljoinvest.lu</a>
+                    <p> <i class='bx bxs-envelope'></i> <a href="mailto:contact@eljoinvest.com">contact@eljoinvest.com</a>
                     </p>
                     <p> <i class='bx bxs-phone-call'></i> <a href="tel:+33644659387">+33 6 44 65 93 87</a></p>
                 </div>
