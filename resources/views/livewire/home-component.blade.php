@@ -143,19 +143,19 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Un service </h4>
-                                <h4 class="subheading">@lang('public.txd')clients très réactif.</h4>
+                                <h4 class="subheading">@lang('public.txdcltr')</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">@lang('public.txd')Un Service Clients accueillant, disponible et réactif, à votre écoute du lundi au vendredi de 8h à 18h.</p></div>
+                            <div class="timeline-body"><p class="text-muted">@lang('public.txusvcl')</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
                             <h4>
-                                @lang('public.txd')Une équipe
+                                @lang('public.txd11')
                                 <br />
-                                @lang('public.txd')professionnelle
+                                @lang('public.txd12')
                                 <br />
-                                @lang('public.txd')vous aide.
+                                @lang('public.txd13')
                             </h4>
                         </div>
                     </li>
@@ -166,15 +166,15 @@
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">@lang('public.txd')NOTRE ÉQUIPE INCROYABLE</h2>
-                    <h3 class="section-subheading text-muted">@lang('public.txd')Solution Finance</h3>
+                    <h2 class="section-heading text-uppercase">@lang('public.tx1')</h2>
+                    <h3 class="section-subheading text-muted">@lang('public.tx2')</h3>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="{{asset('assets/img/team/1.jpg')}}" alt="..." />
-                            <h4>@lang('public.txd')Offres de prêt rapide, pratique et sécurisée.</h4>
-                            <p class="text-muted">@lang('public.txd')C’est des offres de prêts à hauteur de vos attentes. Nous vous permettons de concrétiser vos rêves ou que vous soyez</p>
+                            <h4>@lang('public.tx3')</h4>
+                            <p class="text-muted">@lang('public.tx4')</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -183,8 +183,8 @@
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="{{asset('assets/img/team/2.jpg')}}" alt="..." />
-                            <h4>@lang('public.txd')Une équipe professionnelle pour vous aider.</h4>
-                            <p class="text-muted">Depuis 1996, notre équipe s’est bâti une excellente réputation quant à sa compétence et à la qual­ité de son service.</p>
+                            <h4>@lang('public.tx5')</h4>
+                            <p class="text-muted">@lang('public.tx6')</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -193,8 +193,8 @@
                     <div class="col-lg-4">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="{{asset('assets/img/team/3.jpg')}}" alt="..." />
-                            <h4>@lang('public.txd')Un service clients très réactif.</h4>
-                            <p class="text-muted">@lang('public.txd')Un Service Clients accueillant, disponible et réactif, à votre écoute du lundi au vendredi de 8h à 18h.</p>
+                            <h4>@lang('public.tx7')</h4>
+                            <p class="text-muted">@lang('public.tx8')</p>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
@@ -202,7 +202,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Nous offrons de nombreux services et emplacements financiers, contrairement aux banques commerciales traditionnelles, aux produits de crédit et au financement de l'économie qui sont au cœur de nos opérations quotidiennes.</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">@lang('public.t1')</p></div>
                 </div>
             </div>
         </section>
@@ -229,34 +229,40 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">@lang('public.txd')Nous contacter</h2>
-                    <h3 class="section-subheading text-muted">@lang('public.txd')VOUS POUVEZ TOUJOURS DISCUTER AVEC NOUS</h3>
+                    <h2 class="section-heading text-uppercase">@lang('public.tx9')</h2>
+                    <h3 class="section-subheading text-muted">@lang('public.txc')</h3>
                 </div>
 
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN"   action="/" method="POST">
+                    {{ csrf_field() }}
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
                                 <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <input class="form-control"  name="name" id="name" type="text" placeholder=" @lang('public.yn')*" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="name:required">@lang('public.txd')A name is required.</div>
                             </div>
                             <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control"  name="lastname"  id="name" type="text" placeholder="@lang('public.yl') *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">@lang('public.txd')A lastname is required.</div>
+                            </div>
+                            <div class="form-group">
                                 <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <input class="form-control"  name="email" id="email" type="email" placeholder="@lang('public.ye') *" data-sb-validations="required,email" />
                                 <div class="invalid-feedback" data-sb-feedback="email:required">@lang('public.txd')An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">@lang('public.txd')Email is not valid.</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <input  name="tel" class="form-control" id="phone" type="tel" placeholder="@lang('public.yp') *" data-sb-validations="required" />
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">@lang('public.txd')A phone number is required.</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" placeholder="@lang('public.ym') *" data-sb-validations="required"></textarea>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">@lang('public.txd')A message is required.</div>
                             </div>
                         </div>
@@ -279,7 +285,7 @@
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">@lang('public.txd')Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">@lang('public.txd')Envoyer Message</button></div>
+                    <div class="text-center"><button  class="btn btn-primary btn-xl text-uppercase enable" id="submitButton" type="submit">@lang('public.En')</button></div>
                 </form>
             </div>
         </section>

@@ -42,7 +42,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
              <br>
-            <a class="navbar-brand" href="#">Eljoinvest<span class="dot">.</span></a>
+            <a class="navbar-brand" href="/">Eljoinvest<span class="dot">.</span></a>
             {{-- <a class="navbar-brand" href="#page-top"><img src="{{ asset('assets/img/navbar-logo.png') }}"
                     alt="..." /></a> --}}
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -56,7 +56,7 @@
                     <li class="nav-item"><a class="nav-link" href="#portfolio">@lang('public.apr')</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">@lang('public.ser')</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">@lang('public.cont')</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">@lang('public.dema')</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/demande">@lang('public.dema')</a></li>
                 </ul>
             </div>
             <div class="btn-group">
@@ -109,13 +109,11 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">PRÊT PERSONNEL</h2>
+                                <h2 class="text-uppercase">@lang('public.txdpre')</h2>
                                 <p class="item-intro text-muted">ELJOINVEST</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg"
                                     alt="..." />
-                                <p>Il arrive de ne pas avoir suffisamment de trésorerie pour financer le projet de ses
-                                    rêves. Le prêt personnel est une alternative pour y palier. Vous avez la possibilité
-                                    de demander jusqu'à 50 000 € pour votre prêt personnel</p>
+                                <p>@lang('public.txdpre1')</p>
                                 {{-- <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -149,13 +147,11 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">PRÊT IMMOBILIER</h2>
+                                <h2 class="text-uppercase">@lang('public.txpre')</h2>
                                 <p class="item-intro text-muted">ELJOINVEST</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg"
                                     alt="..." />
-                                <p>Vous souhaitez acheter un nouvel appartement, une maison, le crédit immobilier reste
-                                    la meilleure option pour la concrétisation de votre projet. Vous avez la possibilité
-                                    de demander jusqu'à 450 000 € pour votre prêt immobilier</p>
+                                <p>@lang('public.txpre1')</p>
                                 {{-- <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>
@@ -189,11 +185,11 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">PRÊT AUTOMOBILE</h2>
+                                <h2 class="text-uppercase">@lang('public.txdprea')</h2>
                                 <p class="item-intro text-muted">ELJOINVEST</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg"
                                     alt="..." />
-                                <p>Vous avez l’intention d’acquérir un véhicule, mais vous ne disposez pas du capital nécessaire à son financement, souscrire à un crédit auto constitue la solution idéale. Vous avez la possibilité de demander jusqu'à 160 000 € pour votre prêt automobile.</p>
+                                <p>@lang('public.txdprea1')</p>
                                 {{-- <ul class="list-inline">
                                     <li>
                                         <strong>Client:</strong>

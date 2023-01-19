@@ -4,6 +4,9 @@ use App\Http\Controllers\LocalizationController;
 use App\Http\Livewire\DemandeComponent;
 use App\Http\Livewire\HomeComponent;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DemandeController;
+use App\Http\Controllers\ContactController;
+
 
 /*
 |--------------------------------------------------------------------------
