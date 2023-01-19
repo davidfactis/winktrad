@@ -75,6 +75,7 @@ return [
     'd7'=>"Výška kreditu",
     'd8'=>"Trvanie",
     'd9'=>"Odoslať",
+    'e8'=>"V roku(och)",
 
 ];
 ?>

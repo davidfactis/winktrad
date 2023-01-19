@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-md-2">
                     <label for="inputZip" class="form-label">@lang('public.d8')</label>
-                    <input type="number" name="durer" placeholder="En année(s)" class="form-control" id="inputZip"
+                    <input type="number" name="durer" placeholder="@lang('public.e8')" class="form-control" id="inputZip"
                         required>
                 </div>
                 <div class="col-12">

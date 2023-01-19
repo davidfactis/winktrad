@@ -73,6 +73,7 @@ return [
     'd7'=>"Kwota kredytu",
     'd8'=>"Czas trwania",
     'd9'=>"Wyślij",
+    'e8'=>"W roku(ach)",
 
 ];
 ?>

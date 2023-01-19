@@ -52,10 +52,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#services">@lang('public.ac')</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#portfolio">@lang('public.apr')</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">@lang('public.ser')</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">@lang('public.cont')</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#services">@lang('public.ac')</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#portfolio">@lang('public.apr')</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#about">@lang('public.ser')</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/#contact">@lang('public.cont')</a></li>
                     <li class="nav-item"><a class="nav-link" href="/demande">@lang('public.dema')</a></li>
                 </ul>
             </div>

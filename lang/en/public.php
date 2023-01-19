@@ -73,5 +73,6 @@ return [
     'd7'=>"Credit Amount",
     'd8'=>"Duration",
     'd9'=>"Send",
+    'e8'=>"In year(s)",
 ];
 ?>
