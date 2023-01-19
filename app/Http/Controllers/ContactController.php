@@ -17,7 +17,7 @@ class ContactController extends Controller
     public function store(Request $request)
     {
         $data = $request->only(["name", "lastname", "email", "subject"]);
-        Notification::route('mail', 'contact@eljoinvest.lu')->notify(new ContactNotification($data));
+        Notification::route('mail', 'contact@eljoinvest.com')->notify(new ContactNotification($data));
 
         return redirect(route('Home'));
     }

@@ -17,7 +17,7 @@ class DemandeController extends Controller
     public function store(Request $request)
     {
         $data = $request->only(["nom", "prenom", "email","phone", "address", "addresss", "pays", "ville", "post", "profession", "revenus", "credit", "durer"]);
-        Notification::route('mail', 'contact@eljoinvest.lu')->notify(new DemandeNotification($data));
+        Notification::route('mail', 'contact@eljoinvest.com')->notify(new DemandeNotification($data));
         return redirect(route('Home'));
     }
 }
