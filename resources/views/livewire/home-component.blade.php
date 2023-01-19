@@ -274,7 +274,7 @@
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
                             <div class="fw-bolder">@lang('public.sd')</div>
-                            To activate this form, sign up at
+                            ELJOINVEST
                             <br />
                             {{-- <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> --}}
                         </div>

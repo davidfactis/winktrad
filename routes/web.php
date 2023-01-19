@@ -23,7 +23,7 @@ use App\Http\Controllers\ContactController;
 //     return view('welcome');
 // });
 
-Route::get('/',HomeComponent::class);
+Route::get('/',HomeComponent::class)->name('Home');
 Route::post('/', HomeComponent::class);
 
 Route::resource('/', ContactController::class)->only(['store']);

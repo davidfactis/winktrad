@@ -91,8 +91,8 @@
                             class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="col-lg-4 text-lg-end">
-                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    <i class='bx bxs-phone-call'></i> <a class="link-dark text-decoration-none me-3" href="tel:+33644659387">+33 6 44 65 93 87</a>
+                    <i class='bx bxs-map'></i> <a class="link-dark text-decoration-none me-3" href=""></a>
                 </div>
             </div>
         </div>
