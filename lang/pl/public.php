@@ -75,5 +75,13 @@ return [
     'd9'=>"Wyślij",
     'e8'=>"W roku(ach)",
 
+    'sd'=>"Formularz złożony pomyślnie!",
+    'sd5'=>"Wymagane jest podanie nazwy.",
+    'sd4'=>"Wymagane jest podanie nazwiska.",
+    'sd3'=>"Wymagany jest e-mail.",
+    'sd2'=>"Email nie jest ważny.",
+    'sd1'=>"Wymagane jest podanie numeru telefonu.",
+    'm1'=>"Wymagany jest komunikat.",
+
 ];
 ?>

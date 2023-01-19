@@ -74,5 +74,13 @@ return [
     'd8'=>"Duration",
     'd9'=>"Send",
     'e8'=>"In year(s)",
+
+    'sd'=>"Form submission successful!",
+    'sd5'=>"A name is required.",
+    'sd4'=>"A last name is required.",
+    'sd3'=>"An email is required.",
+    'sd2'=>"Email is not valid.",
+    'sd1'=>"A phone number is required.",
+    'm1'=>"A message is required.",
 ];
 ?>

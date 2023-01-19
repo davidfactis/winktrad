@@ -74,5 +74,13 @@ return [
     'd8'=>"Durée",
     'd9'=>"Envoyer",
     'e8'=>"En année(s)",
+
+    'sd'=>"Envoi du formulaire réussi !",
+    'sd5'=>"Un nom est requis.",
+    'sd4'=>"Un nom de famille est requis.",
+    'sd3'=>"Un email est nécessaire.",
+    'sd2'=>"L'e-mail n'est pas valide.",
+    'sd1'=>"Un numéro de téléphone est nécessaire.",
+    'm1'=>"Un message est nécessaire.",
 ];
 ?>

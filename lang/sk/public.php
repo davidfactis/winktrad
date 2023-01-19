@@ -77,6 +77,14 @@ return [
     'd9'=>"Odoslať",
     'e8'=>"V roku(och)",
 
+    'sd'=>"Formulár bol úspešne odoslaný!",
+    'sd5'=>"Vyžaduje sa meno.",
+    'sd4'=>"Vyžaduje sa priezvisko.",
+    'sd3'=>"Vyžaduje sa e-mail.",
+    'sd2'=>"E-mail nie je platný.",
+    'sd1'=>"Vyžaduje sa telefónne číslo.",
+    'm1'=>"Vyžaduje sa správa.",
+
 ];
 ?>
 

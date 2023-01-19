@@ -240,30 +240,30 @@
                             <div class="form-group">
                                 <!-- Name input-->
                                 <input class="form-control"  name="name" id="name" type="text" placeholder=" @lang('public.yn')*" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">@lang('public.txd')A name is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">@lang('public.sd5')</div>
                             </div>
                             <div class="form-group">
                                 <!-- Name input-->
                                 <input class="form-control"  name="lastname"  id="name" type="text" placeholder="@lang('public.yl') *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">@lang('public.txd')A lastname is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">@lang('public.sd4')</div>
                             </div>
                             <div class="form-group">
                                 <!-- Email address input-->
                                 <input class="form-control"  name="email" id="email" type="email" placeholder="@lang('public.ye') *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">@lang('public.txd')An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">@lang('public.txd')Email is not valid.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:required">@lang('public.sd3')</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">@lang('public.sd2')</div>
                             </div>
                             <div class="form-group mb-md-0">
                                 <!-- Phone number input-->
                                 <input  name="tel" class="form-control" id="phone" type="tel" placeholder="@lang('public.yp') *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">@lang('public.txd')A phone number is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">@lang('public.sd1')</div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
                                 <!-- Message input-->
                                 <textarea class="form-control" id="message" placeholder="@lang('public.ym') *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">@lang('public.txd')A message is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">@lang('public.m1')A message is required.</div>
                             </div>
                         </div>
                     </div>
@@ -273,10 +273,10 @@
                     <!-- has successfully submitted-->
                     <div class="d-none" id="submitSuccessMessage">
                         <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">@lang('public.txd')Form submission successful!</div>
+                            <div class="fw-bolder">@lang('public.sd')</div>
                             To activate this form, sign up at
                             <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            {{-- <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> --}}
                         </div>
                     </div>
                     <!-- Submit error message-->
