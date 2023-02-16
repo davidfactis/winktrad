@@ -285,7 +285,7 @@
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">@lang('public.txd')Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button  class="btn btn-primary btn-xl text-uppercase enable" id="submitButton" type="submit">@lang('public.En')</button></div>
+                    <div class="text-center"><button  class="btn btn-primary btn-xl text-uppercase " id="submitButton" type="submit">@lang('public.En')</button></div>
                 </form>
             </div>
         </section>

@@ -24,7 +24,7 @@ use App\Http\Controllers\ContactController;
 // });
 
 Route::get('/',HomeComponent::class)->name('Home');
-Route::post('/', HomeComponent::class);
+Route::post('/', HomeComponent::class)->name('Home');
 
 Route::resource('/', ContactController::class)->only(['store']);
 
